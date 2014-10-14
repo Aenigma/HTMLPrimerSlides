@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Where should we eat today, Russell?</title>
+		<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+		<link rel='stylesheet' type='text/css' href='style.css'>
+		<script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+		<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+		<script type='text/javascript' src='script.js'></script>
+		<script type='text/javascript'>
+			$('document').ready(pickPlace);
+		</script>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='row'>
+				<div id='choices' class='col-md-2'>
+					<h1>Choices</h1>
+					<ul class='list-group'>
+						<li class='list-group-item'><a href='http://bk.com'>Burger King</a></li>
+						<li class='list-group-item'><a href='http://mcdonalds.com'>McDonalds</a></li>
+						<li class='list-group-item'><a href='http://sheetz.com'>Sheetz</a></li>
+						<li class='list-group-item'><a href='http://tacobell.com'>Taco Bell</a></li>
+					</ul>
+				</div>
+				<div class='col-md-10'>
+					<div class='jumbotron'>
+						<h1>We should eat at...</h1>
+						<div id='result'>
+						</div>
+					</div>
+					<div id='about'>
+						<h1>About</h1>
+						<p>
+						It's <em>really</em> hard to decide what to eat around here.
+						So this was made to choose for us!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Where should we eat today, Russell?</title>
+		<link rel='stylesheet' type='text/css' href='style.css'/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type='text/javascript' src='script.js'></script>
+		<script type='text/javascript'>
+			$('document').ready(pickPlace);
+		</script>
+	</head>
+	<body>
+		<div class='container'>
+			<div id='choices'>
+				<h1>Choices</h1>
+				<ul>
+					<li><a href='http://bk.com'>Burger King</a></li>
+					<li><a href='http://mcdonalds.com'>McDonalds</a></li>
+					<li><a href='http://sheetz.com'>Sheetz</a></li>
+					<li><a href='http://tacobell.com'>Taco Bell</a></li>
+				</ul>
+			</div>
+			<div>
+				<h1>We should eat at...</h1>
+				<div id='result'/>
+				</div>
+				<div id='about'>
+					<h1>About</h1>
+					<p>
+					It's <em>really</em> hard to decide what to eat around here.
+					So this was made to choose for us!
+					</p>
+				</div>
+			</div>
+	</body>
+</html>

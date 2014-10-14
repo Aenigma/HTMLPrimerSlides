@@ -1,0 +1,2 @@
+# !/usr/bin/env sh
+pandoc -s --self-contained -t slidy slides.md -o slides.html

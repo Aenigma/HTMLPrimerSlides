@@ -415,3 +415,6 @@ taken after the document is ready.
 # References
 * [Bootstrap Download and Reference](http://getbootstrap.com/)
 * [Bootstrap CDN](http://www.bootstrapcdn.com/)
+* [Codecademy](http://www.codecademy.com/learn)
+* [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+* [Google Hosted Libraries](https://developers.google.com/speed/libraries/devguide#jquery)
